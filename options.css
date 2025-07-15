@@ -1,0 +1,33 @@
+
+body {
+  font-family: sans-serif;
+  width: 500px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+
+{
+  "manifest_version": 3,
+  "name": "ABA Matrix Family Training Form Helper",
+  "version": "1.0",
+  "description": "An AI-powered helper to fill out family training session forms.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {    
+    }
+  },
+  "options_page": "options.html",
+  "icons": {
+  }
+}
